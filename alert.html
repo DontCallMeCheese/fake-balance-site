@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Email Alert</title>
+  <style>
+    body {
+      background: #f4f4f4;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .email {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      width: 400px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    }
+    .subject {
+      font-weight: bold;
+      color: #d80000;
+      margin-bottom: 10px;
+    }
+    .footer {
+      font-size: 10px;
+      opacity: 0.5;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="email">
+    <div class="subject">
+      Subject: URGENT – Outstanding Balance Detected
+    </div>
+
+    <p>
+      Dear Account Holder,
+    </p>
+
+    <p>
+      A balance of <strong>-R200,000,000.00</strong> has been detected
+      on your account due to an unpaid charge from
+      <strong>SkyDune Airways (Middle-East Region)</strong>.
+    </p>
+
+    <p>
+      Immediate action may be required.
+    </p>
+
+    <p>
+      Regards,<br>
+      Automated Billing System
+    </p>
+
+    <div class="footer">
+      This is a fictional demo email
+    </div>
+  </div>
+</body>
+</html>
